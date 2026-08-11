@@ -41,6 +41,34 @@ Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request with your changes.
 
 Before contributing, please make sure you follow the steps outlined in the Installation section and make sure your contributions adhere to the structure of the repository.
+## Reproducibility
+
+This repository contains computational workflows supporting:
+
+1. UCNP particle detection
+2. Organelle segmentation
+3. Trajectory reconstruction
+4. Spatial proximity analysis
+5. Organelle interaction quantification
+6. Intracellular thermometry analysis
+
+Workflow:
+
+Raw microscopy images
+        ↓
+Image registration
+        ↓
+UCNP detection
+        ↓
+Organelle mask generation
+        ↓
+Trajectory analysis
+        ↓
+Spatial interaction quantification
+        ↓
+Statistical analysis
+        ↓
+Figure generation
 
 License
 
