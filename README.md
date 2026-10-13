@@ -78,7 +78,7 @@ For a local environment, install packages using `pip install -r requirements.txt
 
 ## Reproducibility and known parameters
 
-- **Cell model:** The Chapter 4 imaging description primarily discusses BT-474 cells.
+- **Cell model:** The imaging description primarily discusses BT-474 cells.
 - **Sampling:** 2, 4, 6 and 8 h are the principal post-incubation conditions for the mitochondria/ER/Golgi analyses; the lysosomal figure also includes earlier measurements.
 - **Distance threshold:** 100 nm is an operational proximity threshold; it should not be interpreted as a molecular interaction radius.
 - **Spatial scale:** Chapter 4 reports a reconstructed pixel size of approximately **30.6 nm/pixel** in the acquisition description and uses **30.0 nm/pixel** in the proximity analysis. This discrepancy should be resolved against original calibration metadata before claiming full reproduction.
