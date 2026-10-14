@@ -1,8 +1,8 @@
-# Spatiotemporal Organelle Interactions of Biomimetic UCNPs
+# Spatiotemporal Organelle Interactions of Biomimetic partcles
 
 **Experimental imaging · Quantitative image analysis · Particle tracking · Organelle proximity · Spatial randomisation**
 
-This repository showcases a quantitative imaging workflow for investigating the intracellular localisation of biomimetic upconversion nanoparticles (UCNPs) and their spatial proximity to lysosomes, mitochondria, the endoplasmic reticulum (ER), and the Golgi apparatus. The experimental results shown below were extracted from **Chapter 4, “Spatiotemporal Analysis of Intracellular Localisation and Organelle Proximity of Biomimetic UCNPs,” in a revised doctoral thesis provided by the author**.
+This repository showcases a quantitative imaging workflow for investigating the intracellular localisation of biomimetic upconversion nanoparticles (UCNPs) and their spatial proximity to lysosomes, mitochondria, the endoplasmic reticulum (ER), and the Golgi apparatus. The experimental results shown below were extracted from **Chapter 4, “Spatiotemporal Analysis of Intracellular Localisation and Organelle Proximity of Biomimetic particles,” in a revised doctoral thesis provided by the author**.
 
 > **Result provenance:** The figures are original thesis/manuscript results, **not newly generated outputs from a fresh execution of the scripts in this public repository**. The original reconstructed multi-SIM data and full intermediate analysis datasets have not been provided here. Publication and reuse permissions should be verified before making thesis figures public.
 
@@ -16,7 +16,7 @@ Following intracellular uptake, how does the spatial distribution of membrane-ca
 2. **Image processing:** background correction, cellular ROI definition, organelle segmentation, and UCNP detection.
 3. **Object and trajectory analysis:** particle coordinates, inter-frame linking, and trajectory-level metrics.
 4. **Spatial proximity:** shortest UCNP-object-to-organelle-mask distance; operational proximity threshold **d ≤ 100 nm**.
-5. **Null model:** spatial randomisation of UCNP positions inside cellular regions while preserving organelle-mask geometry and detected particle count.
+5. **Null model:** spatial randomisation of particle positions inside cellular regions while preserving organelle-mask geometry and detected particle count.
 6. **Results:** phase-resolved distributions, proximity probabilities, residence times and experimental-versus-randomised comparisons.
 
 The **100 nm threshold measures spatial proximity, not proof of direct molecular binding or physical contact**. Non-random localisation is not, by itself, evidence of active organelle targeting or directed intracellular trafficking.
